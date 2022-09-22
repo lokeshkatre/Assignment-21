@@ -3,9 +3,7 @@ struct Marks
 {
     char name[20];
     int rollNum;
-    int chem_marks;
-    int math_marks;
-    int phy_marks;
+    float chem_marks,math_marks,phy_marks;
 };
 int main()
 {
